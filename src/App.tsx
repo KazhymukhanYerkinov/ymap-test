@@ -61,7 +61,7 @@ function App() {
 						options={{ preset: 'islands#greenDotIcon', draggable: true }}
 						properties={{ name: 'KAZHYMUKHAN', surname: 'YERKINOV' }} />
 
-					<Clusterer>
+					<Clusterer onClick={(e: any) => { console.log(e) }}>
 						<Placemark
 							onClick={toggleClicked}
 							geometry={[43.315514, 69.586916]}
